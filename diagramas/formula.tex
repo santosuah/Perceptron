@@ -1,0 +1,28 @@
+a_{i} = hardlim(n_{i}) = hardlim(_{i}a^{T} + b_{i})
+
+\mathbf{W} = \begin{bmatrix}
+ w_{1,1} & w_{1,2} & \dots & w_{1,R} \\ 
+ w_{2,1} & w_{2,2} & \dots & w_{2,R} \\ 
+ \vdots  & \vdots  &       & \vdots  \\ 
+ w_{S,1} & w_{S,2} & \dots & w_{S,R}
+\end{bmatrix}
+
+_{i}\mathbf{\textrm{w}} = \begin{bmatrix}
+ w_{i,1}\\ 
+ w_{i,1}\\ 
+ \vdots\\ 
+ w_{i,R}
+\end{bmatrix}
+
+\mathbf{W} = \begin{bmatrix}
+_{1}\textrm{w}^{T}\\ 
+_{2}\textrm{w}^{T}\\ 
+\vdots\\
+_{s}\textrm{w}^{T}
+\end{bmatrix}
+
+------------------------------------------------------------------
+
+\mathbf{w}(k+1) = \mathbf{w}(k) + \alpha e(k)\mathbf{p}(k)
+b(k+1) = b(k) + \alpha e(k)
+
